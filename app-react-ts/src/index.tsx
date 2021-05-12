@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 // import { applyPolyfills, defineCustomElements } from "components/loader";
+import "../register-web-components";
 import { defineCustomElements } from "components";
 
 ReactDOM.render(

@@ -3,14 +3,6 @@ import logo from "./logo.svg";
 import "./App.css";
 import "components";
 
-namespace JSX {
-  interface IntrinsicElements {
-    "my-component": {
-      "full-name": string;
-    };
-  }
-}
-
 function App() {
   return (
     <div className="App">
@@ -29,8 +21,6 @@ function App() {
         </a>
         <my-component full-name="Apple" />
         <my-component fullName="Banana" />
-        <my-component fullname="Coconut" />
-        <my-component full_name="Durian" />
       </header>
     </div>
   );
